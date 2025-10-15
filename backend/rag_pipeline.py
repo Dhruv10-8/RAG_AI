@@ -27,7 +27,7 @@ def pretty_serialize_excel(file_path):
 # ⚙️ Step 2: Configure Gemini
 # -------------------------------------------------------------------
 try:
-    genai.configure(api_key="AIzaSyB6FrbgyTUyFq-JY_XcyWFA80riQNXCWPc")
+    genai.configure(api_key="secret_google_key")
 except ValueError as e:
     print(f"Error configuring Gemini API: {e}")
     print("Please set your API key.")
